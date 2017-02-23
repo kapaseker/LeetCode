@@ -4,9 +4,14 @@ import java.util.ArrayDeque;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-
-public class MergeKList {
-
+/**
+ * 利用归并算法进行合并
+ * @author Panoo
+ *
+ */
+public class MergeKListMergeSolution implements IMergeKListSolution{
+	
+	@Override
 	public ListNode mergeKLists(ListNode[] lists) {
 
 		int listSize = lists.length;

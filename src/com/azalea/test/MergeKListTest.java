@@ -3,7 +3,8 @@ package com.azalea.test;
 import org.junit.Test;
 
 import com.azalea.mergeKList.ListNode;
-import com.azalea.mergeKList.MergeKList;
+import com.azalea.mergeKList.MergeKListMergeSolution;
+import com.azalea.mergeKList.MergeKListPriorityQueue;
 
 public class MergeKListTest {
 
@@ -24,7 +25,10 @@ public class MergeKListTest {
 		ListNode node6 = generateList(new int[] { -9, -6, -5, -4, -2, 2, 3 });
 		ListNode node7 = generateList(new int[] { -3, -3, -2, -1, 0 });
 
-		printList(new MergeKList().mergeKLists(new ListNode[] { leftNode,
+		printList(new MergeKListMergeSolution().mergeKLists(new ListNode[] { leftNode,
+				rightNode, midNode, node4, node5, node6, node7 }));
+		
+		printList(new MergeKListPriorityQueue().mergeKLists(new ListNode[] { leftNode,
 				rightNode, midNode, node4, node5, node6, node7 }));
 	}
 

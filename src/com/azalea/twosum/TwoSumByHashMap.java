@@ -1,12 +1,12 @@
 package com.azalea.twosum;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum {
-
-	public static int[] twoSum(int[] nums, int taget) {
+public class TwoSumByHashMap implements ITwoSumSolution{
+	
+	@Override
+	public int[] twoSum(int[] nums, int taget) {
 
 		Map<Integer, Integer> numMap = new HashMap<>();
 
@@ -26,11 +26,5 @@ public class TwoSum {
 		}
 
 		return new int[] { -1, -1 };
-	}
-
-	public static void main(String[] args) {
-
-		System.out.println(Arrays.toString(TwoSum.twoSum(new int[] { 3, 2,
-				4 }, 6)));
 	}
 }
