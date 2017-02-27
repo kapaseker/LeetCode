@@ -1,2 +1,4 @@
 /bin
 /.settings/*.prefs
+/.idea
+/*.iml
