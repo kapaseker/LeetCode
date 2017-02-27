@@ -2,3 +2,5 @@
 /.settings/*.prefs
 /.idea
 /*.iml
+/*.project
+/*.classpath
