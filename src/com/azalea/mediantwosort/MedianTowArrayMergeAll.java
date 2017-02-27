@@ -5,7 +5,7 @@ package com.azalea.mediantwosort;
  * @author Panoo
  *
  */
-public class MedianTowArrayMergeAll implements IMedianOfTowSortedArray {
+public class MedianTowArrayMergeAll implements IMedianOfTwoSortedArray {
 
 	@Override
 	public double findMedianSortedArrays(int[] nums1, int[] nums2) {

@@ -1,11 +1,11 @@
 package com.azalea.test;
 
-import static org.junit.Assert.*;
+import com.azalea.twosum.TwoSumByHashMap;
+import com.azalea.twosum.TwoSumOneHashMap;
 
 import org.junit.Test;
 
-import com.azalea.twosum.TwoSumByHashMap;
-import com.azalea.twosum.TwoSumOneHashMap;
+import static org.junit.Assert.assertArrayEquals;
 
 public class TwoSumTest {
 	
